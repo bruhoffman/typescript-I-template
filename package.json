@@ -4,10 +4,10 @@
   "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
   "main": "index.js",
   "scripts": {
-    "start-frota": "tsc && node ./build/tipando/index.js",
-    "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
-    "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js",
-    "start-ex-3": "tsc && node ./build/fixacao/exercicio3/index.js"
+    "start-frota": "tsc && node build/index.js",
+    "start-ex-1": "tsc && node build/fixacao/exercicio1/index.js",
+    "start-ex-2": "tsc && node build/fixacao/exercicio2/index.js",
+    "start-ex-3": "tsc && node build/fixacao/exercicio3/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/labenuexercicios/typescript-I-template#readme",
   "devDependencies": {
-    "typescript": "^4.9.4"
+    "@types/node": "^20.14.9",
+    "typescript": "^4.9.5"
   }
 }
